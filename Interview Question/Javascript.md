@@ -125,3 +125,15 @@ Timers are used to execute a piece of code at a set time or repeat the code in a
 The setTimeout(function, delay) function is used to start a timer that calls a particular function after the mentioned delay. The setInterval(function, delay) function repeatedly executes the given function in the mentioned delay and only halts when canceled. The clearInterval(id) function instructs the timer to stop.
 
 Timers are operated within a single thread, and thus events might queue up, waiting to be executed.
+
+## 15.  Which symbol is used for comments in Javascript?
+
+```JAVASCRIPT
+// This is a single comment
+
+/*
+This is a multi-line comment
+*/
+```
+
+## 16. 
