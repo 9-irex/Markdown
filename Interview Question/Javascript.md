@@ -136,4 +136,66 @@ This is a multi-line comment
 */
 ```
 
-## 16. 
+## 16. What is the difference between ViewState and SessionState?
+
+__ViewState__  is specific to a page in a session.
+
+__SessionState__  is specific to user-specific data that can be accessed across all web application pages.
+
+## 17. What is === operator?
+
+is called a strict equality operator, which returns true when the two operands have the same value without conversion.
+
+```JAVASCRIPT
+let num = 2;
+let text = "2";
+
+// let's compare these values
+// note that their types are different
+
+if(num === text){
+    console.log("True");
+} else {
+    console.log("False");
+}
+
+// In this case the result will be False
+// because of their are types are different that not means are equal
+// So === will check even the data types
+
+// what if i dont want to check the data types
+// the you can use == instead of ===
+
+if(num == text){
+    console.log("True");
+} else {
+    console.log("False");
+}
+
+// In this case the result will be True
+
+```
+
+## 18.  How you can submit a form using JavaScript?
+
+```JAVASCRIPT
+// Select the from using the DOM element
+var subForm = document.querySelector('.form');
+
+// then submit by writing this code
+subForm.submit();
+```
+## 19.  Does JavaScript support automatic type conversion?
+
+Yes, JavaScript does support automatic type conversion. It is the common way of type conversion used by JavaScript developers
+
+## 20. How can the style/class of an element be changed?
+
+```JAVASCRIPT
+// Select the element using the DOM element
+var button = document.querySelector('.save_btn');
+
+// then change the style by writing this code
+button.style.backgroundColor = '#000000';
+```
+
