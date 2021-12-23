@@ -269,3 +269,91 @@ let objList = {
 // Now let's use delete keyword to delete on item from object
 delete objList.Email;
 ```
+
+## 30. What is an undefined value in JavaScript?
+
+Undefined value means the
+
+1. Variable used in the code doesn’t exist
+2. Variable is not assigned to any value
+3. Property does not exist.
+
+## 31. What are all the types of Pop up boxes available in JavaScript?
+
+1. Alert
+2. Confirm and
+3. Prompt
+
+## 32. What is the use of Void (0)?
+
+Void(0) is used to prevent the page from refreshing, and parameter “zero” is passed while calling.
+
+Void(0) is used to call another method without refreshing the page.
+
+## 33. How can a page be forced to load another page in JavaScript?
+
+The following code has to be inserted to achieve the desired effect:
+
+```JAVASCRIPT
+window.location.href = "/index.html";
+```
+
+## 34. What is the data type of variables in JavaScript?
+
+All variables in JavaScript are object data types.
+
+## 35. What is the difference between an alert box and a confirmation box?
+
+An alert box displays only one button, which is the OK button.
+
+But a Confirmation box displays two buttons, namely OK and cancel.
+
+## 36. What are escape characters?
+
+Escape characters (Backslash) is used when working with special characters like single quotes, double quotes, apostrophes, and ampersands. Place backslash before the characters to make it display.
+
+```JAVASCRIPT
+document.write = "I m a "good" boy."
+document.write =  "I m a \"good\" boy."
+```
+
+## 37. What are JavaScript Cookies?
+
+Cookies are the small test files stored in a computer, and they get created when the user visits the websites to store information that they need. Examples could be User Name details and shopping cart information from previous visits.
+
+## 38. What a pop() method in JavaScript is?
+
+The pop() method is similar to the shift() method, but the difference is that the Shift method works at the array’s start. The pop() method takes the last element off of the given array and returns it. The array on which it is called is then altered.
+
+```JAVASCRIPT
+var cloths = ["Shirt", "Pant", "TShirt"];
+cloths.pop();
+//Now cloth becomes Shirt,Pant
+```
+
+## 39. Does JavaScript has concept level scope?
+
+No. JavaScript does not have concept-level scope. The variable declared inside the function has scope inside the function.
+
+## 40. What are the disadvantages of using innerHTML in JavaScript?
+
+If you use innerHTML in JavaScript, the disadvantage is
+
+1. Content is replaced everywhere
+2. We cannot use it like “appending to innerHTML
+3. Even if you use +=like “innerHTML = innerHTML + ‘html'” still the old content is replaced by html
+4. The entire innerHTML content is re-parsed and builds into elements. Therefore, it’s much slower
+4. The innerHTML does not provide validation, and therefore we can potentially insert valid and broken HTML in the document and break it
+
+## 41. What is break and continue statements?
+
+Break statement exits from the current loop.
+
+Continue statement continues with next statement of the loop.
+
+## 42. What are the two basic groups of data types in JavaScript?
+
+1. They are as—Primitive.
+2. Reference types.
+
+Primitive types are number and Boolean data types. Reference types are more complex types like strings and dates.
