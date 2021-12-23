@@ -199,3 +199,73 @@ var button = document.querySelector('.save_btn');
 button.style.backgroundColor = '#000000';
 ```
 
+## 21. How to read and write a file using JavaScript?
+
+There are two ways to read and write a file using JavaScript
+
+1. Using JavaScript extensions.
+2. Using a web page and Active X objects.
+
+## 22.  What are all the looping structures in JavaScript?
+
+Following are looping structures in Javascript:
+
+1. For Looping
+2. While Looping
+3. Do While Looping
+
+## 23. What is called Variable typing in Javascript?
+
+Variable typing is used to assign a number to a variable. The same variable can be assigned to a string.
+
+```JAVASCRIPT
+var num = 1; // assign a number to a variable
+var text = "hello world" // assign a string to a variable
+```
+
+## 24.  How can you convert the string of any base to an integer in JavaScript?
+
+The parseInt() function is used to convert numbers between different bases. parseInt() takes the string to be converted as its first parameter. The second parameter is the base of the given string.
+
+To convert 4F (or base 16) to integer, the code used will be –
+```JAVASCRIPT
+parseInt ("4F", 16);
+```
+
+## 25. Difference between “==” and “===”?
+
+__==__ checks only for equality in value, whereas **===** is a stricter equality test and returns false if either the value or the type of the two variables are different.
+
+## 26. What would be the result of 3+2+”7″?
+
+Since 3 and 2 are integers, they will be added numerically. And since 7 is a string, its concatenation will be done. So the result would be 57.
+
+## 27. How to detect the operating system on the client machine?
+
+In order to detect the operating system on the client machine, the navigator. Platform string (property) should be used.
+
+```JAVASCRIPT
+let operatingSytem = navigator.appVersion; // Returns the operating system of the client machine
+```
+
+## 28. What do you mean by NULL in Javascript?
+
+The NULL value is used to represent no value or no object. It implies no object or null string, no valid boolean value, no number, and no array object.
+
+## 29. What is the function of the delete operator?
+
+The delete keyword is used to delete the property as well as its value.
+
+```JAVASCRIPT
+// Assume we have this object
+let objList = {
+    Name: "Mansuur Abdullahi Abdirahman",
+    Age: 23,
+    Status: "Single",
+    Phone: "252-617-608-849",
+    Email: "mansuurtech101@gmail.com"
+};
+
+// Now let's use delete keyword to delete on item from object
+delete objList.Email;
+```
