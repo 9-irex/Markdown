@@ -343,7 +343,7 @@ If you use innerHTML in JavaScript, the disadvantage is
 2. We cannot use it like “appending to innerHTML
 3. Even if you use +=like “innerHTML = innerHTML + ‘html'” still the old content is replaced by html
 4. The entire innerHTML content is re-parsed and builds into elements. Therefore, it’s much slower
-4. The innerHTML does not provide validation, and therefore we can potentially insert valid and broken HTML in the document and break it
+5. The innerHTML does not provide validation, and therefore we can potentially insert valid and broken HTML in the document and break it
 
 ## 41. What is break and continue statements?
 
@@ -357,3 +357,64 @@ Continue statement continues with next statement of the loop.
 2. Reference types.
 
 Primitive types are number and Boolean data types. Reference types are more complex types like strings and dates.
+
+## 43. How can generic objects be created?
+
+Generic objects can be created as:
+
+```JAVASCRIPT
+var I = new object();
+```
+
+## 44. What is the use of a type of operator?
+
+**Typeof** is an operator used to return a string description of the type of a variable.
+
+## 45. Which keywords are used to handle exceptions?
+
+Try… Catch—finally is used to handle exceptions in the JavaScript.
+
+```JAVASCRIPT
+try{
+    Code
+}
+catch(exp){
+    Code to throw an exception.
+}
+finally{
+    Code runs either it finishes successfully or after catch
+}
+```
+
+## 46. Which keyword is used to print the text on the screen?
+
+Document.Write (“Welcome”) is used to print the text–Welcome on the screen.
+
+```JAVASCRIPT
+document.Write("Hello World");
+```
+
+## 47. What is the use of the blur function?
+
+Blur function is used to remove the focus from the specified object.
+
+## 48. What is variable typing?
+
+Variable typing assigns a number to a variable and then assigns a string to the same variable. An example is as follows:
+
+```JAVASCRIPT
+i = 8;
+i ="john";
+```
+
+## 49. How to find an operating system in the client machine using JavaScript?
+
+The Navigator. the app version is used to find the operating system’s name in the client machine.
+
+## 50. What are the different types of errors in JavaScript?
+
+There are three types of errors:
+
+1. **Load time errors**: Errors that come up when loading a web page, like improper syntax errors, are known as Load time errors and generate the errors dynamically.
+2. **Runtime errors**: Errors that come due to misuse of the command inside the HTML language.
+3. **Logical Errors**: These are the errors that occur due to the bad logic performed on a function with a different operation.
